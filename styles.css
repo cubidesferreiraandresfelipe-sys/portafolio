@@ -29,23 +29,25 @@ html {
     align-items: center;
     width: 100%;
     background: linear-gradient(#1E3A8A, #274bc9);
-    height: auto;
+
     padding: 60px 20px;
 
     text-align: center;
     color: white;
     min-height: 300px;
-    background-size: cover;
+
 }
 
 #hero-texto {
-    max-width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
     text-align: center;
+    margin: 0 auto;
 }
 
 
 #subtitulo-hero {
+    text-align: center;
     font-size: 18px;
     line-height: 1.5;
     padding: 0 10px;
@@ -56,6 +58,7 @@ html {
 
 #titulo-hero {
     margin-top: 0;
+    text-align: center;
 }
 
 
