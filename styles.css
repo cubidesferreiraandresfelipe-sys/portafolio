@@ -226,6 +226,9 @@ html {
 
     .descripcion-servicios {
         text-align: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
 
     img,
@@ -248,5 +251,11 @@ html {
 @media (min-width: 900px) {
     #hero {
         height: 350px;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .descripcion-servicios {
+        word-break: break-word;
     }
 }
