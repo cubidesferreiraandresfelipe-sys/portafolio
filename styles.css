@@ -49,8 +49,8 @@ html {
     font-size: 18px;
     line-height: 1.5;
     padding: 0 10px;
-    width: 100%;
     font-weight: 300;
+
 }
 
 
@@ -244,6 +244,12 @@ html {
 
     .servicios-img {
         box-sizing: border-box;
+    }
+
+    #subtitulo-hero {
+        white-space: normal;
+        word-wrap: break-word;
+        max-width: 100%;
     }
 
 }
