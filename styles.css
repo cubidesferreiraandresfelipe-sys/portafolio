@@ -139,6 +139,7 @@ html {
     box-shadow: 0 4px 15px #00000015;
     border-radius: 15px;
     transition: 0.2s;
+    overflow: hidden;
 }
 
 #contacto {
@@ -211,6 +212,8 @@ html {
         height: auto;
         padding: 25px 15px;
         margin: 0 auto;
+        max-width: 100%;
+
     }
 
     #servicios {
@@ -234,6 +237,10 @@ html {
     body,
     html {
         overflow-x: hidden;
+    }
+
+    .servicios-img {
+        box-sizing: border-box;
     }
 
 }
